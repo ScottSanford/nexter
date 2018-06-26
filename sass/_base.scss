@@ -43,8 +43,8 @@ body {
                            [center-end] minmax(6rem, 1fr); // for centering, occupy remaining space and min ensures a margin
 
     // dev purposes
-    & > * {
-        padding: 20px;
-        font-size: 2rem;
-    }
+    // & > * {
+    //     padding: 20px;
+    //     font-size: 2rem;
+    // }
 }
