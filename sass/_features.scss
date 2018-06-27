@@ -1,7 +1,28 @@
 .features {
+    align-items: start;
     display: grid;
     grid-column: center-start / center-end;
     grid-gap: 6rem;
-    grid-template-columns: repeat(3, 1fr);
+    // grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); // responsive "media query"
     margin: 15rem 0;
+}
+
+.feature {
+    display: grid;
+    grid-gap: 1.5rem 2.5rem; // row column
+    grid-template-columns: min-content 1fr;
+
+    &__icon {
+        fill: $color-primary;
+        grid-row: 1 / span 2; // need to use span 2 because row not explicitly defined 
+        height: 4.5rem;
+        transform: translateY(-1rem);
+        width: 4.5rem;
+    }
+
+    &__text {
+        font-size: 1.7rem;
+
+    }
 }
