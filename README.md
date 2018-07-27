@@ -2,7 +2,7 @@
   <img src="./img/ss.png" width="600"/>
 </p>
 
-## Trillo
+## Nexter
 An Advanced CSS project focusing on CSS Grid Layout.
 
 ## Installation and Setup Instructions
