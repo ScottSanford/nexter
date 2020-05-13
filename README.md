@@ -1,3 +1,5 @@
+[Click here for a live demo](https://reverent-northcutt-a851c4.netlify.app/)
+
 <p align="center">
   <img src="./img/ss.png" width="600"/>
 </p>
@@ -16,7 +18,7 @@ Clone down this repository. You will need `node` and `npm` installed globally on
 `npm start`  
 
 ## Reflection
-This was a project built during the [Udemy Course: Advanced CSS & SASS: Flexbox, Grid, Animations and More!](https://www.udemy.com/advanced-css-and-sass/) Project goals included... 
+Project goals included... 
 
 * CSS Grid Layout
 * BEM Methodology
